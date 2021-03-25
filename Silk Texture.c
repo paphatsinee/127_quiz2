@@ -40,13 +40,9 @@ int main()
                     printf("x");
                     j+=R[i];
                 }
-            }
-            else
-            {
-                for(int h=0;h<j;h++)
-                    printf("o");
-            }
 
+            }
+            printf("o");
         }
         printf("\n");
     }
