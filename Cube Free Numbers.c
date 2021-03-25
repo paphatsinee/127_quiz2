@@ -1,8 +1,25 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    int i,n,k,a[]={1,2,3,4,5,6,7,9,10,11,12,13,14,15,17,18};
+    int i,n,k;
+    int a[100];
     scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++)
+        {
+            for(int b=0;b<=n;b++)
+            {
+                if(j=pow(i,3))
+                {
+                    a[b]=j;
+                }
+            }
+
+        }
+
+    }
     if(1<=n<=1000000)
     {
         if(n==8||n==16||n==24||n==27||n==32)
