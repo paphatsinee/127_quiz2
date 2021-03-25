@@ -6,7 +6,7 @@ int main()
     scanf("%d",&n);
     if(1<=n<=1000000)
     {
-        if(n==8||n==27||n==64||n==125||n==216)
+        if(n==8||n==16||n==24||n==27||n==32)
         {
             printf("Not Cube Free");
         }
